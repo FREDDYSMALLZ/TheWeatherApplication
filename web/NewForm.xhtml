@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<body>
+	<h1>Hello User!! Welcome to your Weather Application</h1>
+	<h3>Please use this form to Log in to your Account</h3>
+	<h:form>
+		Username:
+		<h:inputText value="#{user.username}" />
+		<br />
+		<br />
+		Email:
+		<h:inputSecret value="#{user.email}" />
+		<br />
+		<br />
+		Location:
+		<h:inputText value="#{user.location}" />
+		<br />
+		<br />
+		Password:
+		<h:inputSecret value="#{user.password}" />
+		<br />
+		<br />
+		<h:commandButton action="#{formController.onSubmitEdit()}"
+			value="Submit" />
+	</h:form>
+</body>
+
+</html>

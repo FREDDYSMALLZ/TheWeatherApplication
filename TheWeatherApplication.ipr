@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" name="TheWeatherApplication:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/TheWeatherApplication_war_exploded.war</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="TheWeatherApplication/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="TheWeatherApplication" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Mojarra-2.2.1" />
+            <element id="library" level="project" name="Java EE 6-Java EE 6" />
+            <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/cdi-api-2.0.jar" />
+            <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/javax.inject-1.jar" />
+            <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/javax.el-api-3.0.0.jar" />
+            <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/javax.interceptor-api-1.2.jar" />
+            <element id="file-copy" path="$USER_HOME$/Downloads/javax.ws.rs-api-2.1.1.jar" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="WeatherDb@localhost" uuid="8e222bc6-4ded-49e3-8b61-e3348dbef740">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/WeatherDb</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TheWeatherApplication" options="--add-modules=java.xml.bind" />
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TheWeatherApplication.iml" filepath="$PROJECT_DIR$/TheWeatherApplication.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="true" project-jdk-name="9" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/index.xhtml" value="file://$PROJECT_DIR$/web" />
+      </map>
+    </option>
+  </component>
+  <component name="dataSourceStorageLocal">
+    <data-source name="WeatherDb@localhost" uuid="8e222bc6-4ded-49e3-8b61-e3348dbef740">
+      <database-info product="MySQL" version="8.0.13" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="8.0.13" exact-driver-version="5.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+  </component>
+  <component name="libraryTable">
+    <library name="Java EE 6-Java EE 6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Mojarra-2.2.1" type="jsf">
+      <properties version="2.2.1" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javax.faces-2.2.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jstl-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
