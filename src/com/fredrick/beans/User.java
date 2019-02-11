@@ -11,6 +11,9 @@ public class User {
     String location;
     String password;
 
+    public User() {
+    }
+
     public String getUsername() {
         return username;
     }

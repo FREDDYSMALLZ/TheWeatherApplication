@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 import java.util.List;
 
 @RequestScoped
-@Path("/weather")
+@Path("/Weather")
 @Produces({"application/xml", "application/json"})
 @Consumes({"application/xml", "application/json"})
 public class WeatherRestService {

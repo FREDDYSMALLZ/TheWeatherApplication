@@ -12,7 +12,7 @@ import java.util.ArrayList;
 @Local
 @Stateless
 @Alternative
-public class BusinessService implements BusinessServiceInterface {
+public class BusinessService extends BusinessServiceInterface {
     @Inject
     DbInterface db;
 
